@@ -1,0 +1,36 @@
+{
+  "name": "prisma-foreign-key-update",
+  "private": true,
+  "description": "prisma foregin key update and generate migration may has an error",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eryue0220/prisma-foreign-key-update.git"
+  },
+  "keywords": [
+    "prisma",
+    "postgres",
+    "sql",
+    "orm"
+  ],
+  "author": "eryue0220",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eryue0220/prisma-foreign-key-update/issues"
+  },
+  "homepage": "https://github.com/eryue0220/prisma-foreign-key-update#readme",
+  "devDependencies": {
+    "prisma": "6.0.1",
+    "zod-prisma-types": "^3.2.4"
+  },
+  "dependencies": {
+    "@prisma/client": "6.0.1",
+    "zod": "^3.24.2"
+  },
+  "prisma": {
+    "schema": "prisma/schema.prisma"
+  }
+}
